@@ -11,7 +11,8 @@ router.get('/gamePage', function (req, res, next) {
     var p = 1;//当前页数,默认第一页
     var nextPage = 2;//下一页，默认第二页
     var prevPage = 1;//上一页，默认第一页
-    var page_num = [];//数组默认显示10页
+    var max_page = 10;//数组，默认显示10页，每隔10页换一次
+    var min_page = 1;//数组，默认显示10页，每隔10页换一次
     var pa = parseFloat(req.query.pa);//页数分隔标记
 
     if (parseFloat(req.query.p) > 0) {
@@ -27,22 +28,8 @@ router.get('/gamePage', function (req, res, next) {
     }
 
     if (p > 10) {
-        if ((10 * pa + 1) / p == 1) {//11，21，31页时改变页码数
-            for (var i = p; p <= i <= 10 * (pa + 1); i++) {
-                if (i > 10 * (pa + 1)) {
-                    break;
-                }
-                console.log(i);
-                page_num.push(i)
-            }
-        }
-    } else {
-        for (var i = 1; i <= 10; i++) {
-            if (i > 10) {
-                break;
-            }
-            page_num.push(i)
-        }
+        min_page = p;
+        max_page = p + 9;
     }
 
     page.getGamePageCount(function (resultCount) {
@@ -70,7 +57,9 @@ router.get('/gamePage', function (req, res, next) {
                     nextPage: nextPage,//下一页
                     prevPage: prevPage,//上一页
                     totalPage: pageCount,//总页数
-                    page_num: page_num//输出页数
+                    page_num: page_num,//输出页数
+                    min_page: min_page,//最小页
+                    max_page: max_page//最大页
                 };
                 res.json(arr)//返回数据
             });
