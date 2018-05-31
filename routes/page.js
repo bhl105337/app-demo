@@ -1,7 +1,9 @@
 var router = require('express').Router();
 var page = require("../DAO/page");
+// var React = require('react');
 
 router.get('/gamePage', function (req, res, next) {
+    console.log(React);
     var pageCount = 0;//总页数
     var sizeCount = 0;//总条数，总行数
     var p_num = 15;//每页显示数量，输出大小，暂定10条
@@ -27,7 +29,7 @@ router.get('/gamePage', function (req, res, next) {
         firstPage = 1//获得p小于1时
     }
 
-    if (p > 10) {
+    if (p > 10) {//当前为最小页
         min_page = p;
         max_page = p + 9;
     }

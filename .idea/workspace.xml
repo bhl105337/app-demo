@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ba9e6e9e-0cea-4aef-94e2-769c72c9f404" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/page.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -48,20 +47,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
+            <state relative-caret-position="760">
               <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="743">
-              <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
+            <state relative-caret-position="40">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -242,10 +241,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="169" />
+    <option name="y" value="63" />
+    <option name="width" value="1295" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -253,6 +252,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,23 +284,12 @@
             <path>
               <item name="oneNode" type="b2602c69:ProjectViewProjectNode" />
               <item name="oneNode" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oneNode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oneNode" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oneNode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oneNode" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,7 +297,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="6.11.4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tester" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../node" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -483,28 +472,30 @@
       <workItem from="1527555254519" duration="22330000" />
       <workItem from="1527649031425" duration="7482000" />
       <workItem from="1527668458537" duration="6093000" />
-      <workItem from="1527728245206" duration="1461000" />
+      <workItem from="1527728245206" duration="2701000" />
+      <workItem from="1527732528627" duration="250000" />
+      <workItem from="1527732809378" duration="139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1135315000" />
+    <option name="totallyTimeSpent" value="1136944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.492517" visible="true" weight="0.16791846" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.492517" visible="true" weight="0.1722103" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.08166491" side_tool="true" weight="0.33767644" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info id="npm" order="2" sideWeight="0.50476193" side_tool="true" weight="0.15437302" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.9183351" weight="0.37785017" />
+      <window_info id="npm" order="2" sideWeight="0.50476193" side_tool="true" weight="0.15437302" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.18776824" />
-      <window_info id="Favorites" order="2" sideWeight="0.507483" side_tool="true" weight="0.15437302" />
+      <window_info active="true" anchor="right" id="Terminal" order="3" visible="true" weight="0.18776824" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3993644" />
+      <window_info id="Favorites" order="2" sideWeight="0.507483" side_tool="true" weight="0.15437302" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -849,17 +840,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/routes/page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="40">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/page.js">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
+        <state relative-caret-position="760">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
